@@ -1,0 +1,213 @@
+body{
+    background: url("https://img.freepik.com/premium-photo/wood-wall-and-floor-texture-and-background_281658-15.jpg?w=1480") ;
+    /*background: url("https://cdn.pixabay.com/photo/2012/12/24/08/39/background-72250_960_720.jpg");*/
+    /*background: url("https://img.freepik.com/free-vector/sky-background-pastel-paper-cut-design-vector_53876-144660.jpg?w=1060&t=st=1703664008~exp=1703664608~hmac=b03c2e50dd5a25b8561b742b4a551124aef0b3afafb743a908be2baa28bb607e") center no-repeat;*/
+    /*background-size: 100%;*/
+}
+
+.pan{
+    width: 1400px;
+    height: 280px;
+    border: 10px solid #333;
+    border-radius: 10px;
+    background-color: dimgray;
+    opacity: 0.6;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* 그림자 효과 추가 */
+}
+
+.it,.it2,.it3,.it4{
+    position: absolute;
+    width: 330px;
+    top: 30px;
+}
+
+.it{
+    left: 190px;
+    transform: rotate(2deg);
+}
+
+.it2{
+    left: 530px;
+    transform: rotate(358deg);
+}
+
+.it3{
+    left: 870px;
+    transform: rotate(358deg);
+}
+
+.it4{
+    left: 1210px;
+    transform: rotate(2deg);
+}
+
+.main{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    transform: rotate(2deg);
+    left: 210px;
+    top: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 그림자 효과 추가 */
+}
+
+.make{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    transform: rotate(358deg);
+    left: 550px;
+    top: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 그림자 효과 추가 */
+}
+
+.tellme{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    transform: rotate(2deg);
+    left: 890px;
+    top: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 그림자 효과 추가 */
+}
+
+.go1,.go2,.go3{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Gamja Flower', sans-serif;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.go1{
+    left: 280px;
+    top: 250px;
+}
+
+.go2{
+    left: 620px;
+    top: 250px;
+}
+
+.go3{
+    left: 960px;
+    top: 250px;
+}
+
+.sh{
+    position: absolute;
+    right: 220px;
+    top: 140px;
+    transform: rotate(2deg);
+}
+
+.layout{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);  /* 3개의 열 */
+    position: absolute;
+    top: 500px;
+    left: 165px;
+}
+
+.box{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 그림자 효과 추가 */
+}
+
+.pin{
+    position: absolute;
+    width: 110px;
+    left: 120px;
+    top: -40px;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 2px solid gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* 그림자 효과 추가 */
+    transition: transform;
+    background-color: white;
+}
+
+.con:hover {
+    transform: scale(1.1);
+}
+
+.main:hover {
+    transform: scale(1.1);
+}
+
+.make:hover {
+    transform: scale(1.1);
+}
+
+.tellme:hover {
+    transform: scale(1.1);
+}
+
+.rotate-left {
+    transform: rotate(2deg);
+}
+
+.rotate-right {
+    transform: rotate(358deg);
+}
+
+.ad{
+    color: #333333;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2em;
+    font-family: 'Gamja Flower', sans-serif;
+    line-height: 40px;
+    max-height: 160px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* 표시하고 싶은 줄 수 */
+    -webkit-box-orient: vertical;
+    text-decoration: none;
+}
+
+.out{
+    text-decoration: none;
+}
+
+
+.in{
+    display: inline;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.one,.two,.three,.four{
+    font-weight: bold;
+    display: inline;
+    font-size: 1.1em;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.female {
+    color: #ff69b4;
+}
+
+.male {
+    color: #6495ed;
+}
+
+

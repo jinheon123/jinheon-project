@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+section{
+    background: url("https://png.pngtree.com/background/20230410/original/pngtree-grass-lawn-spring-background-picture-image_2383316.jpg") center fixed no-repeat;
+    background-size: 100%;
+    height: 840px;
+}
+
+h1{
+    font-family: 'Gamja Flower', sans-serif;
+    position: absolute;
+    font-size: 6.5em;
+    font-weight: lighter;
+    left: 200px;
+    color: #333333;
+    animation: family 1.5s ease-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.h1 {
+    position: absolute;
+    top: 125px;
+    left: 350px;
+    animation: find 1.5s ease-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+img{
+    position: absolute;
+}
+
+.kid{
+    right: 300px;
+    bottom: -50px;
+    animation: kid 1.5s ease-out forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+}
+
+.dog{
+    right: 0px;
+    bottom: -110px;
+    animation: dog 1.5s ease-out forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+.container {
+    width: 750px;
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    gap: 50px;
+}
+
+.in1,.in2,.in3{
+    text-decoration: none;
+    flex-basis: 300px;
+    height: 200px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.in1{
+    opacity: 0;
+    animation: cloud1 1s ease-out forwards;
+    animation-delay: 1.2s;
+}
+
+.in1:hover {
+    transform: scale(1.2);
+}
+
+.in2{
+    opacity: 0;
+    animation: cloud2 1s ease-out forwards;
+    animation-delay: 1.4s;
+}
+
+.in2:hover {
+    transform: scale(1.2);
+}
+
+.in3{
+    opacity: 0;
+    animation: cloud3 1s ease-out forwards;
+    animation-delay: 1.6s;
+}
+
+.in3:hover {
+    transform: scale(1.2);
+}
+
+.font1,.font2,.font3{
+    color: #333333;
+    font-family: 'Gamja Flower', sans-serif;
+    font-size: 1.6em;
+}
+
+.font1{
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.font2 {
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.font3 {
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes family {
+    from{
+        left: -50px;
+        opacity: 0;
+    }
+    to{
+        left: 200px;
+        opacity: 1;
+    }
+}
+
+@keyframes find {
+    from{
+        left: 150px;
+        opacity: 0;
+    }
+    to{
+        right: 350px;
+        opacity: 1;
+    }
+}
+
+@keyframes kid {
+    from{
+        right: 400px;
+        opacity: 0;
+    }
+    to{
+        right: 300px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes dog {
+    from{
+        right: 100px;
+        opacity: 0;
+    }
+    to{
+        right: 220px;
+        opacity: 1;
+    }
+
+}
+
+@keyframes cloud1 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+@keyframes cloud2 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+@keyframes cloud3 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}

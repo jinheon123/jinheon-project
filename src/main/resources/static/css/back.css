@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+section{
+    background: url('/resources/img/배경.png') center fixed no-repeat;
+    background-size: 100%;
+    height: 840px;
+}
+
+.letter{
+    position: absolute;
+    width: 700px;
+    right: 550px;
+}
+
+.stamp{
+    position: absolute;
+    width: 130px;
+    right: 650px;
+    top: 370px;
+    transform: rotate(340deg);
+    animation: stamp 0.1s ease-out forwards;
+    opacity: 0;
+    animation-delay: 0.8s;
+}
+
+.tam{
+    position: absolute;
+    width: 350px;
+    right: 300px;
+    top: 60px;
+    transform: rotate(20deg);
+    animation: tam 0.8s ease-out forwards, tam2 0.5s ease-out 1s forwards;
+}
+
+
+@keyframes tam {
+    from{
+        right: 300px;
+        top: 60px;
+        opacity: 1;
+    }
+    to{
+        right: 490px;
+        top: 155px;
+        opacity: 1;
+    }
+}
+
+@keyframes tam2 {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+
+}
+
+@keyframes stamp {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.go,.plus {
+    text-decoration: none;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Gamja Flower', sans-serif;
+    font-size: 1.2em;
+}
+
+.tail,.ail{
+    font-size: 3em;
+    font-weight: lighter;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+.go{
+    margin-top: 94px;
+    margin-right: 5px;
+    background-color: blanchedalmond;
+    color: #333333;
+    border: 0.5px solid blanchedalmond;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* 그림자 효과 추가 */
+}
+
+.go:hover {
+    background-color: navajowhite;
+}
+
+.go:active {
+    background-color: blanchedalmond;
+}
+
+.plus{
+    margin-top: 173px;
+    margin-right: 20px;
+    background-color: dimgray;
+    color: whitesmoke;
+    border: 0.5px solid dimgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* 그림자 효과 추가 */
+}
+
+.plus:hover {
+    background-color: #333333;
+}
+
+.plus:active {
+    background-color: dimgray;
+}
+
+.tail {
+    margin-top: 84px;
+    margin-right: -43px;
+    transform: rotate(349deg);
+}
+
+.ail {
+    margin-top: 160px;
+    margin-right: -89px;
+    transform: rotate(342deg);
+}
+
+.one{
+    display: flex;
+    width: 350px;
+    position: absolute;
+    right: 150px;
+    top: 190px;
+    opacity: 0;
+    animation: white 2s ease-in-out forwards;
+    animation-delay: 1.2s;
+}
+
+.two{
+    display: flex;
+    width: 350px;
+    position: absolute;
+    right: 40px;
+    top: 230px;
+    opacity: 0;
+    animation: black 2s ease-in-out forwards;
+    animation-delay: 1.2s;
+}
+
+.white{
+    transform: rotate(380deg);
+    width: 170px;
+}
+
+.black{
+    width: 230px;
+    transform: rotate(30deg);
+}
+
+@keyframes white {
+    from{
+        right: 1000px;
+        top: 550px;
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    to{
+        right: 150px;
+        top: 190px;
+        opacity: 1;
+    }
+}
+
+@keyframes black {
+    from{
+        right: 800px;
+        top: 550px;
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    to{
+        right: 40px;
+        top: 230px;
+        opacity: 1;
+    }
+
+}
+
+
+
+
+
